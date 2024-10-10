@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+
+       div{
+        width: 100%;
+        height: 5vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: red;
+        font-size: 20px;
+        cursor: pointer;
+        font-weight: bold;
+       }
+
+       p{
+        background-color: pink;
+        display: none;
+       }
+
+    </style>
+</head>
+<body>
+    
+
+    <div onclick="show()">+</div>
+
+    <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui, recusandae sint! Porro at, sint velit explicabo modi accusamus accusantium, deserunt eveniet aliquid vitae animi quod impedit, voluptatum quaerat ut aspernatur?
+        Ducimus nostrum fugit dicta ullam consectetur. Dolorem ipsum eveniet vitae provident repellat, quasi placeat molestiae corporis nam omnis repellendus vero voluptas. Ad, dolorum dolores et magnam dicta similique eligendi fuga.
+        Non nam consectetur laborum perspiciatis magnam dolore voluptatem accusamus eaque rem, maiores, sit atque nobis amet deleniti laboriosam soluta suscipit natus! Delectus amet qui alias totam suscipit quis quasi ducimus.
+        Doloremque maxime minima itaque repellendus, tempore, cumque corporis quod, odio suscipit dolor sit impedit perferendis dolorum in sapiente vel inventore consequatur atque accusamus iusto dolores corrupti! Voluptate consequatur officia a.
+        Blanditiis inventore impedit eveniet amet quod suscipit omnis numquam fugiat. Eveniet, aliquam? Delectus alias nihil praesentium a omnis excepturi, rerum molestiae doloribus suscipit, blanditiis labore doloremque animi autem consequatur qui.
+        Voluptate facilis nemo, unde recusandae nam ab est ipsa eum sint aut optio libero at saepe facere porro temporibus. Laborum, quae! Excepturi amet voluptatum libero necessitatibus ipsum tempore, deleniti eius.
+        Cum autem, doloribus deserunt temporibus consequatur obcaecati, optio tempore fugiat, deleniti esse quaerat! Sequi quam optio est natus temporibus odit, consectetur nesciunt! Quia, eveniet tempora aut voluptatibus non quaerat similique?
+        Tenetur non commodi dolorem facilis fugiat quae labore esse consequuntur veritatis, alias natus, sunt mollitia odit deleniti! Libero repellat earum, magnam voluptates est dolorem veniam quia pariatur doloribus voluptatum quidem!
+        Consequatur quibusdam, molestiae quas nihil minus neque omnis alias? Aperiam quas dolorem ipsa delectus amet sapiente iste ratione, beatae incidunt cumque, sint repellendus? Tempora ullam nulla architecto fuga voluptas dolorem.
+        Ex reprehenderit minus harum sapiente, eaque dolores beatae ipsam amet vel eum, quis ipsum fugiat, neque at quibusdam nostrum excepturi consequatur ad molestiae dolore exercitationem itaque. Earum dicta odit debitis.
+    </p>
+
+
+
+
+
+<script>
+
+    
+function show(){
+    let box = document.querySelector("p");
+    let btn = document.querySelector("div");
+    if(box.style.display=="none"){
+        box.style.display="block";
+        btn.innerHTML = "-";
+
+    }else{
+        box.style.display="none";
+        btn.innerHTML = "+";
+    }
+}
+
+
+
+</script>
+
+
+</body>
+</html>

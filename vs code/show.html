@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width>, initial-scale=1.0">
+    <title>Document</title>
+    <!-- <style>
+        div{
+            width: 100px;
+            height: 100px;
+            background-color: blueviolet;
+            display: none;
+        }
+    </style> -->
+</head>
+<body>
+   <div class="box"></div>
+   <button onclick="show()">show</button>
+   <button onclick="hide()">hide</button>
+
+
+   
+
+
+    <!-- <div></div>
+    <button onclick="show()">toggle</button> -->
+   <script>
+
+
+function show(){
+    let x = document.querySelector(".box");
+    x.style.width="100px";
+    x.style.height="100px";
+    x.style.backgroundColor="purple";
+
+}
+function hide(){
+    let y = document.querySelector(".box");
+    y.style.display="none";
+}
+
+
+
+
+
+
+
+
+// function show(){
+//     let x = document.querySelector("div");
+//     if(x.style.display=="none"){
+//         x.style.display="block";
+    
+//     }else{
+//         x.style.display="none";
+//     }
+// }
+   </script>
+</body>
+</html>
